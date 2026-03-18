@@ -1,4 +1,5 @@
 import './App.css';
+import Projects from './components/Projects/Projects';
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
         <p>
           Olá, meu nome é Heitor e Este é meu portifolio!
         </p>
+        <Projects />
       </header>
     </div>
   );
